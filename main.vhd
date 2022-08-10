@@ -1,12 +1,12 @@
 ----------------------------------------------------------------------------------
--- Company: 
--- Engineer: 
+-- Company: IISc
+-- Engineer: Supantha Sen
 -- 
 -- Create Date: 02.03.2019 16:08:30
--- Design Name: 
+-- Design Name: Signed 8-bit Booth Recorder Array Multiplier
 -- Module Name: ex_7 - Behavioral
--- Project Name: 
--- Target Devices: 
+-- Project Name: Digital System Design using FPGA
+-- Target Devices: Xilinx Artix-7 XC7A35T- ICPG236C (Family Artix-7, Part XC7A35T, Package CPG236, Speed Grade -1)
 -- Tool Versions: 
 -- Description: 
 -- 
@@ -32,13 +32,13 @@ use IEEE.STD_LOGIC_UNSIGNED.ALL;
 --library UNISIM;
 --use UNISIM.VComponents.all;
 
-entity ex_7 is
+entity main is
     Port ( a : in STD_LOGIC_VECTOR (7 downto 0);
            b : in STD_LOGIC_VECTOR (7 downto 0);
            y : out STD_LOGIC_VECTOR (15 downto 0));
-end ex_7;
+end main;
 
-architecture Behavioral of ex_7 is
+architecture Behavioral of main is
 
 component booth_encoder is
     Port ( a : in STD_LOGIC_VECTOR (2 downto 0);
