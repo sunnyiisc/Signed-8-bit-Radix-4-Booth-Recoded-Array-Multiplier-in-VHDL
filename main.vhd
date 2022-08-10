@@ -4,7 +4,7 @@
 -- 
 -- Create Date: 02.03.2019 16:08:30
 -- Design Name: Signed 8-bit Booth Recorder Array Multiplier
--- Module Name: ex_7 - Behavioral
+-- Module Name: main - Behavioral
 -- Project Name: Digital System Design using FPGA
 -- Target Devices: Xilinx Artix-7 XC7A35T- ICPG236C (Family Artix-7, Part XC7A35T, Package CPG236, Speed Grade -1)
 -- Tool Versions: 
