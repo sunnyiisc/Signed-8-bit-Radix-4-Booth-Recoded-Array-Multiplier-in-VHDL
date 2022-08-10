@@ -1,12 +1,12 @@
 ----------------------------------------------------------------------------------
--- Company: 
--- Engineer: 
+-- Company: IISc
+-- Engineer: Supantha Sen
 -- 
 -- Create Date: 02.03.2019 19:29:21
--- Design Name: 
--- Module Name: ex_7_tb - Behavioral
--- Project Name: 
--- Target Devices: 
+-- Design Name: Signed 8-bit Booth Recorder Array Multiplier
+-- Module Name: main_tb - Behavioral
+-- Project Name: Digital System Design using FPGA
+-- Target Devices: Xilinx Artix-7 XC7A35T- ICPG236C (Family Artix-7, Part XC7A35T, Package CPG236, Speed Grade -1)
 -- Tool Versions: 
 -- Description: 
 -- 
@@ -31,13 +31,13 @@ use IEEE.STD_LOGIC_1164.ALL;
 --library UNISIM;
 --use UNISIM.VComponents.all;
 
-entity ex_7_tb is
+entity main_tb is
 --  Port ( );
-end ex_7_tb;
+end main_tb;
 
-architecture Behavioral of ex_7_tb is
+architecture Behavioral of main_tb is
 
-component ex_7 is
+component main is
     Port ( a : in STD_LOGIC_VECTOR (7 downto 0);
            b : in STD_LOGIC_VECTOR (7 downto 0);
            y : out STD_LOGIC_VECTOR (15 downto 0));
@@ -47,7 +47,7 @@ signal a, b : STD_LOGIC_VECTOR (7 downto 0);
 signal y : STD_LOGIC_VECTOR (15 downto 0);
 
 begin
-uut : ex_7 port map (a, b, y);
+uut : main port map (a, b, y);
 
 process
 begin
