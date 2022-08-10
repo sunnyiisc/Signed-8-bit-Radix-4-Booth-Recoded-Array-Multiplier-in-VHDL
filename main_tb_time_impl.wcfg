@@ -3,9 +3,9 @@
    <wave_state>
    </wave_state>
    <db_ref_list>
-      <db_ref path="ex_7_tb_time_impl.wdb" id="1">
+      <db_ref path="main_tb_time_impl.wdb" id="1">
          <top_modules>
-            <top_module name="ex_7_tb" />
+            <top_module name="main_tb" />
             <top_module name="glbl" />
          </top_modules>
       </db_ref>
@@ -20,17 +20,17 @@
       <ValueColumnWidth column_width="66"></ValueColumnWidth>
    </column_width_setting>
    <WVObjectSize size="3" />
-   <wvobject type="array" fp_name="/ex_7_tb/a">
+   <wvobject type="array" fp_name="/main_tb/a">
       <obj_property name="ElementShortName">a[7:0]</obj_property>
       <obj_property name="ObjectShortName">a[7:0]</obj_property>
       <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
    </wvobject>
-   <wvobject type="array" fp_name="/ex_7_tb/b">
+   <wvobject type="array" fp_name="/main_tb/b">
       <obj_property name="ElementShortName">b[7:0]</obj_property>
       <obj_property name="ObjectShortName">b[7:0]</obj_property>
       <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
    </wvobject>
-   <wvobject type="array" fp_name="/ex_7_tb/y">
+   <wvobject type="array" fp_name="/main_tb/y">
       <obj_property name="ElementShortName">y[15:0]</obj_property>
       <obj_property name="ObjectShortName">y[15:0]</obj_property>
       <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
